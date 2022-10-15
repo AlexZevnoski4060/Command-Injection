@@ -7,13 +7,13 @@
     <title>Command Injection</title>
   </head>
   <body>
-    <h1>Nhập tên miền để kiểm tra kết nối</h1>
+    <h1> Enter a domain for connection testing </h1>
     <form method='get'>
       Domain name: <input type="text" name="domain">
       <input type="submit">
     </form>
     <?php
-    # Kiểm tra biến tổng quát được khai báo chưa
+    # Check for the global variable if it's set or not
     if (isset($_GET['domain']) == TRUE) {
 
       $untrusted_data = $_GET['domain'];

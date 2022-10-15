@@ -1,6 +1,7 @@
 # Command-Injection
 
-Tải PHP trên trang web https://www.php.net/downloads.php
+Download PHP on https://www.php.net/downloads.php
 
-## Cách chạy code trên MacOS, Linux và Windows
-Mở terminal và bạn phải nằm trong directory chứa file .php, sau đó chạy lệnh "php -S localhost:8080". Mở trình duyệt web và gõ "http://localhost:8080/simple_cmd_inj.php"
+## How to run on MacOS and Linux
+
+Open your terminal and you have to be in the directory that has the .php file, then run "php -S localhost:8080" on your terminal. Fire up your favorite browser and type in "http://localhost:8080/simple_cmd_inj.php", and you're good to experience out the role of a hacker.
